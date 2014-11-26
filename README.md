@@ -1,7 +1,9 @@
 HtmlFileGenerator
 =================
 
-GUI to write HTML content, or pick from content saved to a database, then write that content to a file. 
+GUI to write HTML content, or pick from content saved to a database, then write that content to a file.  Written in Python.  
+
+HTMLGnerationGUI.py will run the GUI and make calls to sqliteAccessors.py and textGridDialog.py, which provide connections to the database and a dialog pop-up to display and select the content stored in the database, respectively.
 
 
 Prompt:
